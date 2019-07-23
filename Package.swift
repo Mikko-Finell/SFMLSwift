@@ -3,7 +3,7 @@ import PackageDescription
 let package = Package(
         name: "SFMLSwift",
         dependencies: [
-                .Package(url: "https://github.com/Scellow/CSFMLSwiftModule.git", majorVersion: 4, minor: 0),
+                .package(url: "https://github.com/Scellow/CSFMLSwiftModule.git", majorVersion: 4, minor: 0),
         ],
         targets: [
                 Target(name: "SFML", dependencies: []),
