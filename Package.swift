@@ -6,7 +6,7 @@ let package = Package(
                 .package(url: "https://github.com/Scellow/CSFMLSwiftModule.git", from: "4.0.0"),
         ],
         targets: [
-                Target(name: "SFML", dependencies: []),
-                Target(name: "Sample", dependencies:["SFML"]),
+                .target(name: "SFML", dependencies: []),
+                .target(name: "Sample", dependencies:["SFML"]),
         ]
 )
